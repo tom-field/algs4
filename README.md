@@ -11,5 +11,5 @@
 + 点击Modify Options点击后可以配置Redirect Input
   > 这样配置可以直接点击右边的run运行代码，免去了命令行中冗长的输入
   > 比如要运行 java BinarySearch tinyW.txt < tinyT.txt
-  > argument参数配置成：$ProjectFileDir$\src\tinyW.txt
-  > Redirect参数配置成：$ProjectFileDir$\src\tinyT.txt
+  > argument参数配置成：$ProjectFileDir$\algs4-data\tinyW.txt
+  > Redirect参数配置成：$ProjectFileDir$\algs4-data\tinyT.txt
