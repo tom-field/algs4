@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 // 并查集
 public class UF {
     private final int[] id;  // 分量id(以触点作为索引)
-    private int count; // 分量数量
+    public int count; // 分量数量
     public UF(int N) {
         count = N;
         id = new int[N];
