@@ -1,4 +1,4 @@
-package Chapter2.Section1;
+package Chapter2.Section3;
 
 import edu.princeton.cs.algs4.StdOut;
 
