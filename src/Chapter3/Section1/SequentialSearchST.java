@@ -1,5 +1,7 @@
 package Chapter3.Section1;
 
+import edu.princeton.cs.algs4.Queue;
+
 public class SequentialSearchST<Key, Value> {
     private Node first; // 链表首节点
 
@@ -32,5 +34,12 @@ public class SequentialSearchST<Key, Value> {
             }
         }
         first = new Node(key, val, first); // 未命中, 新建节点
+    }
+
+    public Iterable<Key> keys()  {
+        Queue<Key> queue = new Queue<>();
+        for (Node x = first; x != null; x = x.next)
+            queue.enqueue(x.key);
+        return queue;
     }
 }
