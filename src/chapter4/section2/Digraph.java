@@ -1,6 +1,5 @@
 package chapter4.section2;
 
-import chapter4.section1.Graph;
 import edu.princeton.cs.algs4.Bag;
 import edu.princeton.cs.algs4.In;
 
