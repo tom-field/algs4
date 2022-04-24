@@ -1,6 +1,6 @@
 package chapter4.section3;
 
-public class Edge {
+public class Edge implements Comparable<Edge> {
     private final int v;            // 顶点之一
     private final int w;            // 另一个顶点
     private final double weight;    // 边的权重
