@@ -65,7 +65,7 @@ public class BellmanFordSP {
         cycle = cycleFinder.cycle();
     }
 
-    private boolean hasNegativeCycle() {
+    public boolean hasNegativeCycle() {
         return cycle != null;
     }
 
