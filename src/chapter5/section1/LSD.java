@@ -3,7 +3,7 @@ package chapter5.section1;
 import org.omg.PortableInterceptor.INACTIVE;
 
 /**
- * 字符串低位优先排序
+ * 低位优先排序 属于 基数排序
  * 字符串长度要一致
  * @author tomfield
  * @date 2022/5/4 11:26
